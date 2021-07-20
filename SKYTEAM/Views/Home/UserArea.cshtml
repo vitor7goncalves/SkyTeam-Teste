@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<header>
+    <div class="main-area ">
+        <div class="nav-bar">
+            <img class="logo" src="~/Assets/img/logo/logo2.png" />
+            <a asp-action="Index" class="logout align-content-end" >Sair</a>
+        </div>
+        <div class="top">
+            <div class="col-12 col-sm-6" id="client">
+                <img src="~/Assets/img/avatar.png" />
+                <h3 class="client-name">Cliente</h3>
+            </div>
+            <div class="col-12 col-sm-6" id="area-token">
+                <h6>Tokens: @ViewBag.token</h6>
+            </div>
+        </div>
+    </div>
+</header>
+<link rel="stylesheet" href="~/css/UserArea.css" />

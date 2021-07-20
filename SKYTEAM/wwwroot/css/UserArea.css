@@ -1,0 +1,124 @@
+﻿@font-face {
+    font-family: 'Rubik';
+    src: url('../Assets/fonts/Rubik/static/Rubik-Regular.ttf');
+}
+
+@media only screen and (max-width: 799px) and (min-width: 320px) {
+
+    .top {
+        display: flex;
+        width: 100%;
+        height: 40rem;
+        padding: 0px;
+    }
+
+    #client {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        text-align: center;
+    }
+
+    #client img {
+        width: 100px;
+        height: 100px;
+        margin-top: 5rem;
+        margin-right: 5rem;
+        margin-bottom: 5rem;
+    }
+
+    .client-name{
+        margin-top: 70px;
+    }
+
+    #area-token {
+        position: relative;
+        height: 100%;
+        background-color: #D643001A;
+        border-radius: 6rem 0rem 0rem 0rem;
+        text-align: center;
+        padding-top: 10rem;
+        z-index: 1;
+    }
+
+}
+
+@media only screen and (max-width: 2324px) and (min-width: 800px) {
+
+    .top {
+        display: flex;
+        width: 100%;
+        height: 30rem;
+        padding: 0px;
+    }
+
+    #client {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+        #client img {
+            width: 200px;
+            height: 200px;
+            margin-top: 5rem;
+            margin-bottom: 5rem;
+        }
+
+    #area-token {
+        position: absolute;
+        right: 0px;
+        height: 100%;
+        background-color: #D643001A;
+        border-radius: 6rem 0rem 0rem 0rem;
+        text-align: center;
+        padding-top: 10rem;
+        z-index: 1;
+    }
+}
+
+    * {
+        font-family: Rubik;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .main-area {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-bar {
+        width: 100%;
+        height: 4rem;
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 2rem 0rem 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .logout {
+        padding: 1rem 5rem;
+        border: none;
+        border-radius: 28px;
+        text-align: center;
+        background-color: #D94000;
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+        .logout:hover {
+            background-color: #CC3C00;
+            text-decoration: none;
+            color: #ffffff;
+        }
+
+
+    h3, h6 {
+        color: #777777;
+    }

@@ -1,0 +1,175 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<header class="w-100 bg">
+    <div class="Bg">
+        <nav class="navbar navbar-light position-absolute bg-transparent">
+            <img class="navbar-logo" src="/Assets/img/logo/logo.png" />
+            <a asp-action="Login" class="navbar-btn navbar-btn2" type="submit" style=" padding: 0.475rem 3.5rem;">Login</a>
+        </nav>
+        <div class="transparent-img"></div>
+        <img class="top-bg" src="~/Assets/img/top_background.png" />
+        <div class="top">
+            <div>
+                <h1 style="font-size: 4rem;">
+                    O maior marketplace de produtos para viagens
+                </h1>
+                <p>
+                    Vendedores distribuem seus produtos para milhares de compradores,
+                    que têm sua compra garantida por esses fornecedores renomados.
+                </p>
+            </div>
+            <div class="btn-option">
+                <button class="sell-buy">Quero vender ou comprar<img src="~/Assets/img/Arrow.png" style="margin: 1rem " /></button>
+                <button class="more more2"><img src="~/Assets/img/Plus..png" style="margin-right: 0.625rem" />Ver mais detalhes</button>
+            </div>
+        </div>
+        <div class="area-arrow-down pt-3 mt-5 bg-transparent">
+            <img src="~/Assets/img/Down_Arrow.png" style="margin-left: 50%;" />
+        </div>
+    </div>
+</header>
+<body class="body-center h-100">
+    <div class="d-flex flex-column" style="margin-top: 6.25rem;">
+        <div class="selling d-flex">
+            <div class="bg-box">
+                <img src="~/Assets/img/retangulo tipo 1.png" />
+            </div>
+            <div class="img1 position-absolute d-flex flex-column align-items-center">
+                <img src="~/Assets/img/3 people.png" />
+                <button class="want">Quero ser vendedor</button>
+            </div>
+            <div class="first-list">
+                <h3 class="mb-4">Para os <strong>vendedores</strong></h3>
+                <div class="father-ul-1  d-flex">
+                    <div>
+                        <img src="~/Assets/img/3 points.png" class="h-75" />
+                    </div>
+                    <div>
+                        <ul>
+                            <li class="first-one">
+                                <p style="font-size: 1.25rem;">
+                                    Distribua seu produto para mais de 2.000 compradores
+                                </p>
+                            </li>
+                            <li class="first-two">
+                                <p style="font-size: 1.25rem;">
+                                    Sem custos iniciais ou mensais, cobramos apenas 1% do valor da venda, incluído na tarifa
+                                </p>
+                            </li>
+                            <li>
+                                <p style="font-size: 1.25rem;">
+                                    Aceite diversas formas de pagamento, como parcelamento por cartão de crédito e financiamento no boleto
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="margin-top: 6.5rem">
+            <div class="buyng d-flex w-100">
+                <div class="second-list">
+                    <h3 class="mb-4">Para os <strong>compradores</strong></h3>
+                    <div class=" father-ul-2  d-flex">
+                        <div>
+                            <img src="~/Assets/img/2 points.png" class="h-75" />
+                        </div>
+                        <div>
+                            <ul>
+                                <li class="second-one">
+                                    <p style="font-size: 1.25rem">
+                                        Pesquise, reserve e compre produtos de fornecedores renomados
+                                    </p>
+                                </li>
+                                <li class="second-two">
+                                    <p style="font-size: 1.25rem">
+                                        Flexibilidade de pagamento
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="bg-box2">
+                        <img src="~/Assets/img/retangulo tipo 2.png" />
+                    </div>
+                    <div class="img2 position-absolute d-flex flex-column align-items-center">
+                        <img src="~/Assets/img/homem na sala.png" />
+                        <button class="want">Quero ser comprador</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<footer class="footer">
+    <div class="footer-area d-flex">
+        <div class="container d-flex flex-column bg-transparent " style="margin-top: 5.25rem; margin-left: 5.25rem;">
+            <img src="~/Assets/img/logo/logo2.png" style="width: 10.125rem; height: 2.5rem; margin-bottom: 1.5rem;" />
+            <div class="d-flex">
+                <div style="width: 2.5rem; height: 2.5rem; background-color: #ffffff; border-radius: 50%; margin-right: 1.625rem;"> 
+                    <a href="">
+                        <img src="~/Assets/img/rede social/facebook.png" style="margin: 10px" />
+                        </a>
+                </div>
+                <div style="width: 2.5rem; height: 2.5rem; background-color: #ffffff; border-radius: 50%;">  
+                    <a href="">
+                        <img src="~/Assets/img/rede social/insta.png" style="margin: 10px" />
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="sobre d-flex">
+            <div class="list-1">
+          
+                <ul>
+                    <li>
+                        <p style="font-size: 1.125rem; color: #2D2D2D;">
+                            <strong>
+                                Sobre a SkyTeam
+                            </strong>
+                        </p>
+                    </li>
+                    <li>
+                        <a href="">
+                            História
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            Vídeo
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            Galeria de fotos
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="list-2">
+   
+                <ul>
+                    <li>
+                        <p style="font-size: 1.125rem; color: #2D2D2D;">
+                            <strong>
+                                Contato SkyTeam
+                            </strong>
+                        </p>
+                    </li>
+                    <li>
+                        <a href="">
+                            sac@skyteam.tur.br
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div>
+        <p class="copyright">Copyright &copy; 2021. Todos os direitos reservados</p>
+    </div>
+</footer>

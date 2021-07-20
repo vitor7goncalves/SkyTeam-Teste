@@ -1,0 +1,57 @@
+﻿@model SKYTEAM.Models.UserData
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+<link rel="stylesheet" href="~/css/login.css" />
+<header id="father">
+    <div id="body-page">
+        <div class="col-12 col-sm-6 col-xs-12" id="left-top ">
+            <div class="transparent-img"></div>
+            <img src="~/Assets/img/top_background.png" class="w-100" id="img-top" />
+            <img src="~/Assets/img/logo/logo3.png" id="logo" />
+            <h2 class="h2-text">
+                O maior marketplace de produtos para viagens
+            </h2>
+            <p class="p-text">
+                Vendedores distribuem seus produtos para milhares de compradores,
+                que têm sua compra garantida por esses fornecedores renomados.
+            </p>
+            <div class="area-pluss">
+                <button class="more more2"><img src="~/Assets/img/Plus..png" class="pluss" />Ver mais detalhes</button>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-xs-12" id="right-top">
+            <div class="line"></div>
+            <div class="row pt-4" style="text-align: left; align-items: flex-start" id="login-area">
+                <h1>Login</h1>
+                <p class="text-login">
+                    Entre com o nome de usuário e a senha que você criou durante o seu cadastro.
+                </p>
+                <div class="switch__container">
+                    <input id="switch-shadow" class="switch switch--shadow" type="checkbox" />
+                    <label for="switch-shadow">
+                        <label for="switch-shadow" class="buy">Comprador</label>
+                        <label for="switch-shadow" class="sell">Vendedor</label>
+                    </label>
+                </div>
+                <form asp-action="Login" method="post" class="enter-login">
+                    <p asp-for="email" class="user">Usuário</p>
+                    <input asp-for="email" type="email" placeholder="&commat;nome" class="form-control" id="email" />
+                    <p asp-for="password" class="password">Senha</p>
+                    <input asp-for="password" type="password" placeholder="8 caracteres ou mais" class="form-control" id="password" />
+
+                    <div class="box-2">
+                        <input id="ch" type="checkbox">
+                        <label class="lb" for="ch"></label>
+                        <label class="label-text">
+                            Me mantenha conectado
+                        </label>
+                    </div>
+                    <button type="submit" class="enter">Entrar</button>
+                </form>
+                <p style="margin-left: 4rem; color: #A2A0A0; font-size: 18px;">Ainda não possui uma conta? <a class="creater" href="">Cadastre-se</a></p>
+            </div>
+        </div>
+    </div>
+</header>

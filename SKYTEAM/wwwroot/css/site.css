@@ -1,0 +1,617 @@
+﻿@font-face {
+    font-family: 'Rubik'; src: url('../Assets/fonts/Rubik/static/Rubik-Regular.ttf'); 
+}
+
+@media only screen and (max-width: 799px) and (min-width: 320px){
+    
+    .Bg {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0);
+    }
+
+    .navbar {
+        width: 100%;
+        padding-top: 2.25rem;
+        padding-left: 5.25rem;
+        padding-right: 5.222rem;
+        top: 0%;
+        left: 0%;
+    }
+
+    .navbar-logo {
+        width: 15rem;
+        height: 3rem;
+    }
+
+    .navbar-btn {
+        border: 2px solid #FFFFFF;
+        color: #FFFFFF;
+        background-color: rgba(255,255,255,0);
+        padding: 3rem 7.125rem;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 1.375rem;
+    }
+
+    .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+        color: #fff;
+        background-color: #1b6ec2;
+        border-color: #1861ac;
+    }
+    .top {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        padding-top: 25rem;
+        padding-left: 2rem;
+        color: #ffffff;
+    }
+
+        .top p {
+            margin: 2rem 4.1875rem 0rem 0rem;
+            font-size: 1.5rem;
+        }
+
+    .transparent-img {
+        position: absolute;
+        z-index: -2;
+        width: 100%;
+        height: 100vh;
+        top: 0%;
+        left: 0%;
+        background-color: rgba(0,0,0,0.5);
+    }
+
+    .top-bg {
+        position: absolute;
+        z-index: -3;
+        width: 120rem;
+        height: 100vh;
+        top: 0%;
+        left: -100%;
+        /*Controle da imagem de fundo do topo*/
+    }
+
+    .btn-option {
+        display: flex;
+        flex-direction: column;
+        padding-top: 3.5rem;
+        font-size: 1.25rem;
+    }
+
+    .sell-buy {
+        width: 30rem;
+        height: 6rem;
+        color: #ffffff;
+        background-color: #D64300;
+        margin-bottom: 3rem;
+        border: none;
+        border-radius: 25px;
+        font-size: 1.7rem;
+        padding-left: 2rem;
+    }
+
+
+    .more {
+        width: 30rem;
+        height: 3.75rem;
+        margin-left: -5.75rem;
+        color: #ffffff;
+        background-color: rgba(255,255,255,0);
+        border: none;
+        font-size: 1.7rem;
+    }
+
+    .area-arrow-down {
+        position: absolute;
+        width: 95%;
+        top: 70rem;
+    }
+
+        .area-arrow-down img {
+            width: 24px;
+        }
+
+    .body-center {
+        width: 100%;
+    }
+
+    .selling{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bg-box {
+        position: absolute;
+        width: 20.5rem;
+        height: 13.3rem;
+        top: 98rem;
+        left: 0rem;
+        background-color: rgba(0,0,0,0);
+        border: 1.2px solid #D2D2D2;
+        border-radius: 0px 28px 0px 0px;
+    }
+
+        .bg-box img {
+            width: 20.5rem;
+            height: 13.3rem;
+            margin-top: 1rem;
+            border-radius: 0px 28px 0px 0px;
+            border: none;
+            background-color: #ECECEC;
+        }
+
+    .img1 {
+        width: 20.5rem;
+        height: 20.3rem;
+        z-index: 1;
+        top: 100rem;
+        left: 2rem;
+        opacity: 1;
+    }
+
+        .img1 img {
+            width: 25.5rem;
+            height: 20.3rem;
+        }
+
+    .want {
+        width: 15rem; 
+        height: 3rem; 
+        background-color: #D94000;
+        transition: background 0.5s;
+        border: none;
+        color: #ffffff;
+        margin-top: -1.5rem;
+    }
+
+    .first-list {
+        margin-top: 9.8rem;
+        margin-left: 3rem;
+    }
+    .first-list h3{
+        margin-top: 13rem;
+    }
+    .father-ul-1{
+        margin-top: 30rem;
+    }
+    .first-list li {
+        width: 24.3rem;
+        margin-left: -1rem;
+    }
+
+        .buyng{
+            display: flex;
+            flex-direction: column;
+        }
+
+    .bg-box2 {
+        position: absolute;
+        width: 20.5rem;
+        height: 13.3rem;
+        top: 161rem;
+        right: 0rem;
+        background-color: rgba(0,0,0,0);
+        border: 1.2px solid #D2D2D2;
+        border-radius: 28px 0px 0px 0px;
+    }
+
+        .bg-box2 img {
+            width: 20.5rem;
+            height: 13.3rem;
+            margin-top: 1rem;
+            border: none;
+            background-color: #ECECEC;
+            margin-left: 1.3rem;
+        }
+
+    .img2 {
+        width: 20.5rem;
+        height: 20.3rem;
+        z-index: 1;
+        top: 163rem;
+        right: 2rem;
+        opacity: 1;
+    }
+        .img2 img {
+            width: 25.5rem;
+            height: 20.3rem;
+        }
+
+    .second-list {
+        margin-left: 10rem;
+    }
+    .second-list h3 {
+    }
+
+    .father-ul-2 {
+        margin-top: 30rem;
+    }
+
+        .second-list li {
+            width: 24.3rem;
+            list-style: none;
+            margin-left: -1rem;
+        }
+
+    .footer {
+        position: relative;
+        width: 100%;
+        height: 24.125rem;
+        margin-top: 10rem;
+        background-color: #ECECEC;
+        border-radius: 28px 0px 0px 0px;
+    }
+
+    .footer-area{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sobre {
+        width: 100%;
+        height: 24.125rem;
+        background-color: #D643001A;
+        border-radius: 28px 0px 0px 0px;
+        margin-top: 5rem;
+    }
+
+    .list-1 {
+        margin: 5.25rem 5.625rem 0rem 0rem;
+    }
+
+    .list-2 {
+        margin-top: 5.25rem;
+    }
+
+    .copyright {
+        position: absolute;
+        left: 10rem;
+        bottom: -15rem;
+    }
+}
+
+button {
+    border-radius: 1.375rem; /*22px*/
+    font-family: Rubik;
+}
+
+    button:focus {
+        outline: none;
+    }
+
+h1 {
+    font-family: Rubik;
+}
+
+h3 {
+    font-size: 2.5rem;
+    font-family: Rubik;
+}
+
+li {
+    list-style: none;
+    font-family: Rubik;
+}
+
+p {
+    font-family: Rubik;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+    color: #777777;
+    font-size: 1rem;
+    font-family: Rubik;
+}
+
+    a:hover {
+        color: #4B4D50;
+    }
+
+@media only screen and (max-width: 2324px) and (min-width: 800px) {
+    .Bg {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0);
+    }
+
+    .navbar {
+        width: 100%;
+        padding-top: 2.25rem;
+        padding-left: 5.25rem;
+        padding-right: 5.25rem;
+        top: 0%;
+        left: 0%;
+    }
+
+    .navbar-btn {
+        background-color: rgba(255,255,255,0);
+        color: #ffffff;
+        font-size: 1.1rem;
+        border: 2px solid #FFFFFF;
+        border-radius: 1.375rem;
+        text-decoration: none;
+    }
+    
+        .navbar-btn:hover {
+            color: #000000;
+            text-decoration: none;
+        }
+
+        .navbar-btn2:before {
+            content: '';
+            position: absolute;
+            top: 2.2rem;
+            left: 69rem;
+            width: 0rem;
+            height: 2.75rem;
+            background-color: #ffffff;
+            border: 2px solid #FFFFFF;
+            border-radius: 1.375rem;
+            transition: all 0.2s ease;
+            z-index: -1;
+            opacity: 0;
+            text-align: center;
+        }
+
+    .navbar-btn2:hover:before {
+        width: 10.125rem;
+        opacity: 1;
+    }
+
+    .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+        color: #fff;
+        background-color: #1b6ec2;
+        border-color: #1861ac;
+    }
+
+}
+
+    @media (min-width: 250px) {
+        html {
+            font-size: 0.5rem;
+        }
+    }
+
+    @media (min-width: 850px) {
+        html {
+            font-size: 0.75rem;
+        }
+    }
+
+    @media (min-width: 998px) {
+        html {
+            font-size: 0.85rem;
+        }
+    }
+
+    @media (min-width: 1027px) {
+        html {
+            font-size: 0.875rem;
+        }
+    }
+
+
+    @media (min-width: 1279px) {
+        html {
+            font-size: 1rem;
+        }
+    }
+
+    body {
+        /* Margin bottom by footer height */
+        margin: 0px;
+        padding: 0px;
+        background-color: #F2F2F2;
+    }
+
+@media only screen and (max-width: 2324px) and (min-width: 800px) {
+
+    .top {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        padding: 12.5rem 23.0625rem 0rem 5.25rem;
+        color: #ffffff;
+    }
+
+        .top p {
+            margin: 2rem 4.1875rem 0rem 0rem;
+            font-size: 1.5rem;
+        }
+
+    .transparent-img {
+        position: absolute;
+        z-index: -2;
+        width: 100%;
+        height: 100vh;
+        top: 0%;
+        left: 0%;
+        background-color: rgba(0,0,0,0.5);
+    }
+
+    .top-bg {
+        position: absolute;
+        z-index: -3;
+        width: 100%;
+        height: 100vh;
+        top: 0%;
+        left: 0%;
+        /*Controle da imagem de fundo do topo*/
+    }
+
+    .btn-option {
+        padding-top: 3.5rem;
+        font-size: 1.25rem;
+    }
+
+    .sell-buy {
+        width: 21.875rem;
+        height: 3.75rem;
+        color: #ffffff;
+        background-color: #D64300;
+        transition: all 0.5s;
+        border: none;
+        padding-left: 2rem;
+    }
+
+        .sell-buy:hover {
+            background-color: #CC3C00;
+        }
+
+    .more {
+        width: 16.0625rem;
+        height: 3.75rem;
+        margin-left: 1.75rem;
+        color: #ffffff;
+        background-color: rgba(255,255,255,0);
+        border: none;
+        transition: background 0.5s;
+    }
+
+    .more2:before {
+        content: '';
+        position: absolute;
+        top: 32.1rem;
+        left: 29.3rem;
+        width: 0rem;
+        height: 3.75rem;
+        background-color: #FFFFFF1A;
+        border-radius: 1.375rem;
+        transition: all 0.2s ease;
+        z-index: -1;
+        opacity: 0;
+    }
+
+    .more2:hover:before {
+        width: 16.0625rem;
+        opacity: 1;
+    }
+
+    .area-arrow-down {
+        width: 100%;
+    }
+
+    .body-center {
+        width: 100%;
+    }
+
+    .bg-box {
+        width: 37.5rem;
+        height: 24.5rem;
+        background-color: rgba(0,0,0,0);
+        border: 1.2px solid #D2D2D2;
+        border-radius: 0px 28px 0px 0px;
+    }
+
+        .bg-box img {
+            width: 36.125rem;
+            height: 24.5rem; /* equivale a 392px*/
+            margin-top: 1rem;
+            border-radius: 0px 28px 0px 0px;
+            border: none;
+            background-color: #ECECEC;
+        }
+
+    .img1 {
+        z-index: 1;
+        top: 53.5rem;
+        left: 7rem;
+        opacity: 1;
+    }
+
+    .want {
+        width: 22rem; /*352px*/
+        height: 3.25rem; /*52px*/
+        background-color: #D94000;
+        transition: background 0.5s;
+        border: none;
+        color: #ffffff;
+        margin-top: -1.75rem;
+    }
+
+        .want:hover {
+            background-color: #B83D05;
+        }
+
+    .first-list {
+        margin-top: 5.8rem;
+        margin-left: 10rem;
+    }
+
+        .first-list li {
+            width: 24.3rem;
+            margin-left: -1rem;
+        }
+
+    .bg-box2 {
+        width: 37.5rem;
+        height: 24.5rem;
+        margin-left: 9.54rem;
+        background-color: rgba(0,0,0,0);
+        border: 1.2px solid #D2D2D2;
+        border-radius: 28px 0px 0px 0px;
+    }
+
+        .bg-box2 img {
+            width: 36.125rem;
+            height: 24.5rem; /* equivale a 392px*/
+            margin-top: 1rem;
+            border: none;
+            background-color: #ECECEC;
+            margin-left: 1.3rem;
+        }
+
+    .img2 {
+        z-index: 1;
+        top: 89rem;
+        right: 7rem;
+        opacity: 1;
+    }
+
+    .second-list {
+        margin-top: 9rem;
+        margin-left: 10rem;
+    }
+
+        .second-list li {
+            width: 24.3rem;
+            list-style: none;
+            margin-left: -1rem;
+        }
+
+    .footer {
+        position: relative;
+        width: 100%;
+        height: 24.125rem;
+        margin-top: 10rem;
+        background-color: #ECECEC;
+        border-radius: 76px 0px 0px 0px;
+    }
+
+    .sobre {
+        width: 310.2rem;
+        height: 24.125rem;
+        background-color: #D643001A;
+        border-radius: 72px 0px 0px 0px;
+    }
+
+    .list-1 {
+        margin: 5.25rem 14.625rem 0rem 5.25rem;
+    }
+
+    .list-2 {
+        margin-top: 5.25rem;
+    }
+
+    .copyright {
+        position: absolute;
+        left: 31rem;
+        bottom: 1rem;
+    }
+}
+
